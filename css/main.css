@@ -13,9 +13,9 @@ h1{
 .menu_top{
   display: flex;
   flex-direction: column;
-  padding-top: 8px;
-  padding-block-start: 2px;
-  padding-block-end: 0px;
+  padding-top: 0px;
+  /* padding-block-start: 2px;
+  padding-block-end: 0px; */
   width: 100%;
 }
 .top{
@@ -26,37 +26,15 @@ h1{
   justify-content: space-between;
 }
 .top nav a{
-  justify-content: space-between;
+  margin-top: 90px;
   padding-right: 20px;
   text-decoration: none;
   color: black;
   font-family:'Nunito', Arial, sans-serif; 
-  font-size: large;
+  font-size: 16px;
   font-weight:bold;
 }
 
-
-
-/*
-banner image
-https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/melbourne.jpg
-
-
-
-https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg
-
-
-*/
-/**
-For banner over lay add this class to your div
-<div class="banner__container">
-  <div>
-      <!-- content goes here -->
-  </div>
-</div>
-*/
-
-}
 .banner__container {
   position: relative;
 }
@@ -65,9 +43,9 @@ For banner over lay add this class to your div
   
   position: absolute;
   height:700px;
-  top: 66px;
-  right: 9px;
-  left: 7px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
   bottom: 0;
   background-color: rgba(0,0,0,0.4);
   background-size: cover;
@@ -93,9 +71,9 @@ For banner over lay add this class to your div
 .aligncenter a{
   text-decoration: none;
   font-weight: bold;
-  font-size: large;
+  font-size: 16px;
   color:white;
-  background-color: red;
+  background-color: rgba(231, 31, 31, 0.911);
   width: 15em;
   height: 30px;
   padding:8px;
@@ -107,8 +85,6 @@ For banner over lay add this class to your div
   color: white;
   text-decoration: none;
 }
-
-
 
 .flex{
   background-color: #d1d4ce;
@@ -123,9 +99,6 @@ For banner over lay add this class to your div
 .first_flex{
   padding-right:3px;
   width:100%;
-  
-  
-  
 
 }
 .second_flex{
